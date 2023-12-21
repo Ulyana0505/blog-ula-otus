@@ -4,7 +4,7 @@
 }
 
 header {
-  background-color: #fecaca;
+  background-color: 0;
   height: 35vh;
   width: 100%;
   display: flex;
@@ -27,43 +27,34 @@ header {
 }
 
 main {
-  background-image: url(https://images.wallpaperscraft.ru/image/single/zakat_more_volny_184360_2048x1152.jpg);
-  height: 100vh;
+  background-image: url(https://get.pxhere.com/photo/sea-water-ocean-horizon-light-cloud-black-and-white-sky-night-sunlight-wave-dawn-atmosphere-dusk-reflection-darkness-moonlight-monochrome-photography-wind-wave-14023.jpg);
+  height: 122vh;
   width: 100%;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.list-of-records {
   display: flex;
-  flex-direction: column;
-  align-content: flex-start;
-  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
-.to-list-of-records {
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-content: flex-start;
-  justify-content: flex-start;
-  gap: 10px;
-}
-
-.fragment {
+.record {
+  background-color: #fff;
+  height: 350px;
+  width: 350px;
+  margin: 60px;
+  border-radius: 10%;
   text-align: center;
-  margin: 30px;
-}
-
-.link-to-records {
-  margin: auto;
-  text-align: center;
-}
-
-.link-to-list {
-  color: black;
+  padding: 10px;
 }
 
 footer {
-  background-color: #172554;
+  background-color: black;
   height: 35vh;
   width: 100%;
   font-size: 1.5rem;
@@ -73,9 +64,13 @@ footer {
   align-content: center;
 }
 
-.foot-number {
+.to-records-link {
   margin: 30px;
   text-align: center;
+}
+
+.to-main-link-style {
+  color: #fff;
 }
 
 .to-feedback-link {
