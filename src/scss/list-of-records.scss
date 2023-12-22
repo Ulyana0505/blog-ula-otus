@@ -35,6 +35,10 @@ main{
     background-size: cover;
 }
 
+.main-link{
+    color: black;
+}
+
 .list-of-records{
     display: flex;
     flex-direction: row;
@@ -69,15 +73,11 @@ footer{
     text-align: center;
 }
 
-.to-main-link-style{
-    color: #fff;
-}
-
 .to-feedback-link{
     margin: auto; 
     text-align: center;
 }
 
-.to-feedback-link-style{
+.link{
     color: #fff;
 }

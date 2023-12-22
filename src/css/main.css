@@ -58,7 +58,7 @@ main {
   text-align: center;
 }
 
-.link-to-list {
+.main-link {
   color: black;
 }
 
@@ -83,6 +83,6 @@ footer {
   text-align: center;
 }
 
-.to-feedback-link-style {
+.footer-link {
   color: #fff;
 }
