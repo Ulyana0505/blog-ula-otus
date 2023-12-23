@@ -1,1 +1,75 @@
-*{margin:0;padding:0}header{background-color:#ffd4cb;height:35vh;width:100%;display:flex;flex-direction:row;justify-content:flex-start;align-content:space-around}.header-heading{margin:70px}.header-heading h1{font-size:2.5rem}.header-heading p{font-size:1.3rem;width:40%}main{background-image:url(https://images.wallpaperscraft.ru/image/single/zakat_more_volny_184360_2048x1152.jpg);height:100vh;width:100%;margin:auto;background-repeat:no-repeat;background-size:cover;display:flex;flex-direction:column;align-content:flex-start;justify-content:flex-start}.to-list-of-records{font-size:1.5rem;display:flex;flex-direction:column;align-content:flex-start;justify-content:flex-start;gap:10px}.fragment{text-align:center;margin:30px}.link-to-records{margin:auto;text-align:center}.main-link{color:#000}footer{background-color:#061723;height:35vh;width:100%;font-size:1.5rem;color:#fff;display:flex;flex-direction:column;align-content:center}.foot-number{margin:30px;text-align:center}.to-feedback-link{margin:auto;text-align:center}.footer-link{color:#fff}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffd4cb;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-around;
+}
+.header-heading {
+    margin: 70px;
+}
+.header-heading h1 {
+    font-size: 2.5rem;
+}
+.header-heading p {
+    font-size: 1.3rem;
+    width: 40%;
+}
+main {
+    background-image: url(https://images.wallpaperscraft.ru/image/single/zakat_more_volny_184360_2048x1152.jpg);
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.to-list-of-records {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.fragment {
+    text-align: center;
+    margin: 30px;
+}
+.link-to-records {
+    margin: auto;
+    text-align: center;
+}
+.main-link {
+    color: #000;
+}
+footer {
+    background-color: #061723;
+    height: 35vh;
+    width: 100%;
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.foot-number {
+    margin: 30px;
+    text-align: center;
+}
+.to-feedback-link {
+    margin: auto;
+    text-align: center;
+}
+.footer-link {
+    color: #fff;
+}

@@ -1,51 +1,45 @@
-const path = require("path");
-//const webpack = require('webpack');
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const path = require('path')
+const HtmlBundlerPlugin = require('html-bundler-webpack-plugin')
 
 module.exports = {
-  entry: {
-    main: path.resolve(__dirname, "./src/main.js"),
-  },
-  output: {
-    path: path.resolve(__dirname, "./dist"),
-    filename: "[name].bundle.js",
-    clean: true,
-  },
-
-  mode: "production",
-  /*    devServer: {
-        //historyApiFallback: true,
-        //contentBase: path.resolve(__dirname, './dist'),
-        //open: true,
-        //compress: true,
-        //hot: true,
-        //port: 8080,
-        port: 9000,
-        hot: true,
-        static: {
-            directory: path.join(__dirname, './dist'),
-        },
-    }, */
-  module: {
-    rules: [
-      {
-        test: /\.(css|sass|scss)$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
-      },
+    output: {
+        path: path.resolve(__dirname, './dist'),
+        filename: '[name].bundle.js',
+        clean: true,
+    },
+    mode: 'production',
+    module: {
+        rules: [
+            {
+                test: /\.(css|scss)$/i,
+                use: ['css-loader', 'sass-loader'],
+            },
+            {
+                test: /\.(ico|png|jp?g|svg)/,
+                type: 'asset',
+                generator: {
+                    filename: 'img/[name].[hash:8][ext]', // save to file images >= 2 KB
+                },
+                parser: {
+                    dataUrlCondition: {
+                        maxSize: 2 * 1024, // inline images < 2 KB
+                    },
+                },
+            },
+        ],
+    },
+    performance: {
+        maxAssetSize: 1024 * 1024 * 3,
+    },
+    plugins: [
+        new HtmlBundlerPlugin({
+            entry: 'src/views/',
+            css: {
+                filename: 'css/[name].[contenthash:8].css',
+            },
+            js: {
+                filename: 'js/[name].[contenthash:8].js',
+            },
+        }),
     ],
-  },
-  plugins: [
-    // ...
-    // применять изменения только при горячей перезагрузке
-    //new webpack.HotModuleReplacementPlugin(),
-    new MiniCssExtractPlugin(),
-    new HtmlWebpackPlugin({
-      /*title: "Прогноз погоды",
-            meta: {
-                viewport: 'width=device-width, initial-scale=1.0'
-            },*/
-      template: "src/index.html",
-    }),
-  ],
-};
+}

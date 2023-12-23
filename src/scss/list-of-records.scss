@@ -1,33 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@import 'for-all-scss/for-all';
 
-header{
+header {
     background-color: blue($color: #000000);
-    height: 35vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: space-around;
 }
 
-.header-heading{
-    margin: 70px;
-}
-
-.header-heading h1{
-    font-size: 2.5rem;
-}
-
-.header-heading p{
-    font-size: 1.3rem;
-    width: 40%;
-}
-
-main{
-    background-image: url(https://get.pxhere.com/photo/sea-water-ocean-horizon-light-cloud-black-and-white-sky-night-sunlight-wave-dawn-atmosphere-dusk-reflection-darkness-moonlight-monochrome-photography-wind-wave-14023.jpg);
+main {
+    background-image: url(../img/ListOfRec-back.jpg);
     height: 122vh;
     width: 100%;
     margin: auto;
@@ -35,11 +13,11 @@ main{
     background-size: cover;
 }
 
-.main-link{
+.main-link {
     color: black;
 }
 
-.list-of-records{
+.list-of-records {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -47,7 +25,7 @@ main{
     align-content: center;
 }
 
-.record{
+.record {
     background-color: #fff;
     height: 350px;
     width: 350px;
@@ -57,27 +35,21 @@ main{
     padding: 10px;
 }
 
-footer{
+footer {
     background-color: black;
-    height: 35vh;
-    width: 100%;
-    font-size: 1.5rem;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
 }
 
-.to-records-link{
-    margin: 30px;; 
+.to-records-link {
+    margin: 30px;
     text-align: center;
 }
 
-.to-feedback-link{
-    margin: auto; 
+.to-feedback-link {
+    margin: auto;
     text-align: center;
 }
 
-.link{
+.link {
     color: #fff;
 }

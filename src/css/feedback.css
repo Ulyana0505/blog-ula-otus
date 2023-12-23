@@ -1,67 +1,67 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #949297;
-  height: 35vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-content: space-around;
+    background-color: #949297;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-around;
 }
 
 .header-heading {
-  margin: 70px;
+    margin: 70px;
 }
 
 .header-heading h1 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 .header-heading p {
-  font-size: 1.3rem;
-  width: 40%;
+    font-size: 1.3rem;
+    width: 40%;
 }
 
 main {
-  background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1651050285_71-vsegda-pomnim-com-p-more-vo-vremya-shtorma-foto-76.jpg);
-  height: 100vh;
-  width: 100%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+    background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1651050285_71-vsegda-pomnim-com-p-more-vo-vremya-shtorma-foto-76.jpg);
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .ideas {
-  margin: auto;
-  background-color: #fff;
+    margin: auto;
+    background-color: #fff;
 }
 
 footer {
-  background-color: #08070b;
-  height: 35vh;
-  width: 100%;
-  font-size: 1.5rem;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+    background-color: #08070b;
+    height: 35vh;
+    width: 100%;
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .foot-number {
-  margin: 30px;
-  text-align: center;
+    margin: 30px;
+    text-align: center;
 }
 
 .to-records-link {
-  margin: auto;
-  text-align: center;
+    margin: auto;
+    text-align: center;
 }
 
 .link {
-  color: #fff;
+    color: #fff;
 }
