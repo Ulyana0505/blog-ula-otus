@@ -1,10 +1,10 @@
 @import 'for-all-scss/for-all';
 
-header {
+.header {
     background-color: #ffd4cb;
 }
 
-main {
+.main {
     background-image: url(../img/record-back.jpg);
     height: 140vh;
     width: 100%;
@@ -53,7 +53,7 @@ main {
     margin: 30px;
 }
 
-footer {
+.footer {
     background-color: #ffd4cb;
 }
 

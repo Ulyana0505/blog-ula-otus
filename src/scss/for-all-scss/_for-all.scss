@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-header {
+.header {
     height: 35vh;
     width: 100%;
     display: flex;
@@ -12,20 +12,19 @@ header {
     align-content: space-around;
 }
 
-.header-heading {
+.header_info_heading {
     margin: 70px;
 }
 
-.header-heading h1 {
+.header_info_heading h1 {
     font-size: 2.5rem;
 }
 
-.header-heading p {
+.header_info_heading p {
     font-size: 1.3rem;
     width: 40%;
 }
-
-footer {
+.footer {
     height: 35vh;
     width: 100%;
     font-size: 1.5rem;

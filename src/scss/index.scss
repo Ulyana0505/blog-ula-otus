@@ -1,10 +1,10 @@
 @import 'for-all-scss/for-all';
 
-header {
+.header {
     background-color: #ffd4cb;
 }
 
-main {
+.main {
     background-image: url(../img/main-back.jpg);
     height: 100vh;
     width: 100%;
@@ -40,7 +40,7 @@ main {
     color: black;
 }
 
-footer {
+.footer {
     background-color: #061723;
     color: #fff;
 }

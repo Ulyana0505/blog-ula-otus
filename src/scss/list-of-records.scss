@@ -1,10 +1,10 @@
 @import 'for-all-scss/for-all';
 
-header {
+.header {
     background-color: blue($color: #000000);
 }
 
-main {
+.main {
     background-image: url(../img/ListOfRec-back.jpg);
     height: 122vh;
     width: 100%;
@@ -36,7 +36,7 @@ main {
     box-shadow: 0 0 1em white;
 }
 
-footer {
+.footer {
     background-color: black;
     color: #fff;
 }
