@@ -12,6 +12,10 @@
     align-content: space-around;
 }
 
+.header_info {
+    width: 50%;
+}
+
 .header_info_heading {
     margin: 70px;
 }
@@ -22,8 +26,9 @@
 
 .header_info_heading p {
     font-size: 1.3rem;
-    width: 40%;
+    width: 60%;
 }
+
 .footer {
     height: 35vh;
     width: 100%;

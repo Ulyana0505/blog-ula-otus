@@ -49,58 +49,46 @@
 }
 
 .main {
-  background-image: url(../img/record-back.jpg);
-  height: 140vh;
+  background-image: url(../img/main-back.jpg);
+  height: 100vh;
   width: 100%;
-}
-
-.record-parent {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-}
-
-.record {
-  background-color: #ffd4cb;
-  margin: 60px;
-  border-radius: 10%;
-}
-
-.text {
-  width: 800px;
-  height: 1000px;
-  text-align: center;
-  opacity: 0.7;
-}
-
-.text h2 {
-  margin: 15px;
-  font-size: 3rem;
-}
-
-.text p {
-  margin: 15px;
-  font-size: 1.7rem;
-}
-
-.images {
-  width: 500px;
-  height: 1000px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  align-content: flex-start;
+  justify-content: flex-start;
 }
 
-.img {
+.to-list-of-records {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.fragment {
+  text-align: center;
   margin: 30px;
 }
 
+.link-to-records {
+  margin: auto;
+  text-align: center;
+}
+
+.main-link {
+  color: black;
+}
+
 .footer {
-  background-color: #ffd4cb;
+  background-color: #061723;
+  color: #fff;
 }
 
 .link {
-  color: black;
+  color: #fff;
 }
