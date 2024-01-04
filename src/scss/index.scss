@@ -6,8 +6,6 @@
 
 .main {
     background-image: url(../img/main-back.jpg);
-    height: 100vh;
-    width: 100%;
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,4 +45,16 @@
 
 .link {
     color: #fff;
+}
+
+@media (min-width: $min-desktop-size) {
+    .main {
+        height: 100vh;
+    }
+}
+
+@media (max-width: $max-mobile-size) {
+    .main {
+        text-shadow: 0 0 0.6em white;
+    }
 }

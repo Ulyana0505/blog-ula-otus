@@ -6,8 +6,8 @@
 
 .main {
     background-image: url(../img/record-back.jpg);
-    height: 140vh;
-    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .record-parent {
@@ -15,6 +15,7 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 .record {
@@ -25,7 +26,6 @@
 
 .text {
     width: 800px;
-    height: 1000px;
     text-align: center;
     opacity: 0.7;
 }
@@ -41,8 +41,6 @@
 }
 
 .images {
-    width: 500px;
-    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,4 +57,10 @@
 
 .link {
     color: black;
+}
+
+@media (max-width: $max-mobile-size) {
+    .img {
+        width: 250px;
+    }
 }

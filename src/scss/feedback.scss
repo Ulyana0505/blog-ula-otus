@@ -27,3 +27,9 @@
 .link {
     color: #fff;
 }
+
+@media (min-width: $min-desktop-size) {
+    .main {
+        height: 100vh;
+    }
+}

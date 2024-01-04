@@ -1,90 +1,90 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
-  height: 35vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-content: space-around;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-around;
 }
 
 .header_info_heading {
-  margin: 70px;
+    margin: 70px;
 }
 
 .header_info_heading h1 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 .header_info_heading p {
-  font-size: 1.3rem;
-  width: 60%;
+    font-size: 1.3rem;
+    width: 60%;
 }
 
 .footer {
-  height: 35vh;
-  width: 100%;
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+    height: 35vh;
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .footer_contacts_number {
-  margin: 30px;
-  text-align: center;
+    margin: 30px;
+    text-align: center;
 }
 
 .footer_links_all_links {
-  margin: auto;
-  text-align: center;
+    margin: auto;
+    text-align: center;
 }
 
 .header {
-  background-color: 0;
+    background-color: 0;
 }
 
 .main {
-  background-image: url(../img/ListOfRec-back.jpg);
-  height: 122vh;
-  width: 100%;
-  margin: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(../img/ListOfRec-back.jpg);
+    height: 122vh;
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-link {
-  color: black;
+    color: black;
 }
 
 .list-of-records {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .record {
-  background-color: #fff;
-  height: 350px;
-  width: 350px;
-  margin: 60px;
-  border-radius: 10%;
-  text-align: center;
-  padding: 10px;
-  box-shadow: 0 0 1em white;
+    background-color: #fff;
+    height: 350px;
+    width: 350px;
+    margin: 60px;
+    border-radius: 10%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 1em white;
 }
 
 .footer {
-  background-color: black;
-  color: #fff;
+    background-color: black;
+    color: #fff;
 }
 
 .link {
-  color: #fff;
+    color: #fff;
 }
