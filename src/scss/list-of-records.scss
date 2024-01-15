@@ -1,0 +1,42 @@
+@import 'for-all-scss/for-all';
+
+.header {
+    background-color: blue($color: #000000);
+}
+
+.main {
+    background-image: url(../img/ListOfRec-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-link {
+    color: black;
+}
+
+.list-of-records {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.record {
+    background-color: #fff;
+    width: 350px;
+    margin: 60px;
+    border-radius: 10%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 1em white;
+}
+
+.footer {
+    background-color: black;
+    color: #fff;
+}
+
+.link {
+    color: #fff;
+}

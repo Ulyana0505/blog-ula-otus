@@ -1,0 +1,45 @@
+{
+    "name": "blog-ula-otus",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config ./webpack.config.build.js",
+        "dev": "webpack serve --config ./webpack.config.dev.js",
+        "test": "jest",
+        "lint": "prettier --check . && eslint .",
+        "lint:fix": "prettier --write . && eslint . --fix",
+        "prepare": "husky install"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.11",
+        "css-loader": "^6.8.1",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-jest": "^27.6.0",
+        "html-bundler-webpack-plugin": "^3.4.3",
+        "html-webpack-plugin": "^5.5.4",
+        "husky": "^8.0.3",
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0",
+        "lint-staged": "^15.2.0",
+        "mini-css-extract-plugin": "^2.7.6",
+        "prettier": "^3.1.1",
+        "sass": "^1.69.5",
+        "sass-loader": "^13.3.2",
+        "style-loader": "^3.3.3",
+        "webpack": "^5.89.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    },
+    "lint-staged": {
+        "*.js": "eslint --cache --fix",
+        "*.{js,css,md}": "prettier --write"
+    }
+}
